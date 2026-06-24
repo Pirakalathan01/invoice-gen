@@ -414,7 +414,7 @@ function InvoiceSheet({ data, subtotal, discountAmount, afterDiscount, tax, tota
   const f = (n: number) => fmt(n, data.currency);
 
   return (
-    <div className="invoice-sheet bg-white flex flex-col" style={{ minHeight: 900 }}>
+    <div className="invoice-sheet bg-white flex flex-col" style={{ minHeight: '1123px' }}>
 
       {/* Header */}
       <div style={{ backgroundColor: BRAND }}>
